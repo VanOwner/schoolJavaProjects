@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=int\ main(java.lang.String[])
+comment0.text=private\ static\ double\ calculateCost(double\ billableWeight,String\ shippingZone){\r\n\ \ \ \ \ \ \ \ double\ cost;\r\n\ \ \ \ \ \ \ \ try{\r\n\ \ \ \ \ \ \ \ \ \ \ \ int\ iZone\ \=\ Integer.parseInt(shippingZone);\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(iZone<1\ ||\ iZone>5){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println("Invalid\ shipping\ zone\ "+shippingZone);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return(4);\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\ else\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cost\ \=\ (billableWeight*.08)+4+(iZone*.80);\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\ catch\ (NumberFormatException\ e){\r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println(shippingZone+"\ is\ not\ a\ valid\ shipping\ zone\:"+e);\r\n\ \ \ \ \ \ \ \ \ \ \ \ return(3);\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ cost;\r\n}
+numComments=1
