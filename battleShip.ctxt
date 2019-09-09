@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=board
+comment1.target=void\ initBoard(int[][])
+comment2.params=board
+comment2.target=void\ showBoard(int[][])
+comment3.params=ships
+comment3.target=void\ initShips(int[][])
+comment4.params=shoot
+comment4.target=void\ shoot(int[])
+comment5.params=shoot\ ships
+comment5.target=boolean\ hit(int[],\ int[][])
+comment6.params=shoot\ ships\ attempt
+comment6.target=void\ hint(int[],\ int[][],\ int)
+comment7.params=shoot\ ships\ board
+comment7.target=void\ changeboard(int[],\ int[][],\ int[][])
+numComments=8
